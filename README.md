@@ -41,6 +41,7 @@ Collection of miscellaneous [helper tools](#tools), [must-read articles](#articl
 * Great [article](https://medium.com/spire-labs/utilizing-kubernetes-liveness-and-readiness-probes-to-automatically-recover-from-failure-2fe0314f2b2e) about utilizing k8s liveness & readiness probes to automatically recover from failure
 * Great [article](https://docs.bitnami.com/kubernetes/how-to/configure-rbac-in-your-kubernetes-cluster/) about configuring *RBAC*
 * [Pain(less) NGINX Ingress](https://danielfm.me/posts/painless-nginx-ingress.html) - Daniel Martins about Nginx Ingress outages and config reloading
+* Great [article](https://blog.getambassador.io/kubecon-eu-2019-top-10-takeaways-123b5fcb30a8) top 10 takeaways from KubeCon EU 2018
 
 ## 📜 Useful commands
 * List all resources in a namespace: `kubectl api-resources --verbs=list --namespaced -o name | xargs -n 1 kubectl get --show-kind --ignore-not-found -n <namespace>`
